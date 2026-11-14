@@ -98,7 +98,7 @@ android {
         targetSdk = 36
         versionCode = 148
         versionName = "13.5.0"
-        resValue("string", "app_name", appNameOverride ?: "Rythim Music")
+        resValue("string", "app_name", appNameOverride ?: "TaaaMusic")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
@@ -197,7 +197,7 @@ android {
             }
             isDebuggable = true
             if (appNameOverride == null) {
-                resValue("string", "app_name", "Rythim Music Debug")
+                resValue("string", "app_name", "TaaaMusic Debug")
             }
             signingConfig =
                 if (workflowDebugKeystoreFile != null) {
